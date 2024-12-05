@@ -1,0 +1,65 @@
+.todo {
+  text-align: center;
+}
+
+.task-input input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.task-input button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  background-color: #0056b3;
+}
+
+.task-table {
+  margin-top: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.task-table th,
+.task-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #f2f2f2;
+}
+
+.task-table button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.task-table button:hover {
+  background-color: #ccc;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.task-table input {
+  padding: 5px;
+  width: 80%;
+}
+
+.task-table td button {
+  margin-right: 5px;
+}
